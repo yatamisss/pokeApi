@@ -1,0 +1,28 @@
+body {
+    background-color: #fff;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .cardContainer_card {
+    background-image: url(../img/poke.png);
+    border: solid;
+    border-color: #000;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    color: #000;
+    font-family: "Blinker", sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  .cardContainer_card img {
+    height: 200px;
+    width: 180px;
+  }
